@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bem-vindo | Meu Site</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background: linear-gradient(45deg, #007bff, #00c6ff);
+      color: white;
+      padding: 100px 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 15px 30px;
+      color: white;
+      background-color: #ff6600;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .sobre,
+    .servicos,
+    .contato {
+      padding: 50px 20px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+    }
+
+    .contato {
+      background: #007bff;
+      color: white;
+    }
+
+    .contato .cta-button {
+      background: #ff6600;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Transforme suas ideias em realidade</h1>
+      <p>Crie, inove e conquiste com nossa solução digital.</p>
+      <a href="#contato" class="cta-button">Saiba mais</a>
+    </header>
+
+    <section class="sobre">
+      <h2>Quem somos</h2>
+      <p>
+        Somos uma equipe apaixonada por tecnologia e inovação, oferecendo
+        soluções digitais que fazem a diferença.
+      </p>
+    </section>
+
+    <section class="servicos">
+      <h2>Nossos serviços</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Desenvolvimento Web</h3>
+          <p>Sites modernos e responsivos para sua empresa.</p>
+        </div>
+        <div class="card">
+          <h3>Design UX/UI</h3>
+          <p>Experiências intuitivas e atraentes para seus usuários.</p>
+        </div>
+        <div class="card">
+          <h3>Consultoria Tech</h3>
+          <p>Transforme seu projeto com as melhores tecnologias.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contato">
+      <h2>Entre em contato</h2>
+      <p>Vamos construir algo incrível juntos!</p>
+      <a
+        href="https://www.linkedin.com/in/joannabraccini"
+        class="cta-button"
+        target="_blank"
+        >LinkedIn</a
+      >
+    </section>
+  </body>
+</html>
